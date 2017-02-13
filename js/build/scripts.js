@@ -1,15 +1,8 @@
-/* ------------------------------- *\
-	# General
-\* ------------------------------- */
 /*global $*/
 /*global console*/
 /*node browser: true*/
 'use strict';
-$(window).load(function () {
+$(window).on('load', function () {
 	$('.load').fadeOut();
 	$('.wrap').removeClass('preload');
 });
-
-/* ------------------------------- *\
-	#
-\* ------------------------------- */
